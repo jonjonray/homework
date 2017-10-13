@@ -4,7 +4,7 @@ require 'dessert'
 =begin
 Instructions: implement all of the pending specs (the `it` statements without blocks)! Be sure to look over the solutions when you're done.
 =end
-
+ 
 describe Dessert do
   let(:chef) { double("chef") }
   subject(:tiramisu) {Dessert.new("tiramisu",50,:chef)}
@@ -28,7 +28,7 @@ describe Dessert do
 
   describe "#mix!" do
     it "shuffles the ingredient array"
-      
+
   end
 
   describe "#eat" do
